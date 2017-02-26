@@ -88,7 +88,7 @@ fill-opacity:0.7;
 	overflow:hidden;
 	display:inline-block;
 }
-.menu_bar ul li:hover.drop_down_file{
+.menu_bar ul li:hover .drop_down_file{
 	margin:0 0 0 -120px;
 	padding:0;
 	-webkit-box-shadow:0px3px3px2pxrgba(0,0,0,0.51);
@@ -103,7 +103,7 @@ border-radius:0px 0px 3px 3px;
 	overflow:hidden;
 	display:inline-block;
 }
-.menu_bar ul li:hover.drop_down_link{
+.menu_bar ul li:hover .drop_down_link{
 	margin:0 0 0 -120px;
 	padding:0;
 	-webkit-box-shadow:0px3px3px2pxrgba(0,0,0,0.51);
@@ -118,10 +118,10 @@ border-radius:28px 0px 28px 0px;
 	overflow:hidden;
 	display:inline-block;
 }
-.menu_bar.drop_down_product{display:none;}
-.menu_bar.drop_down_link{display:none;}
-.menu_bar.drop_down_profile{display:none;}
-.menu_bar.drop_down_file{display:none;}
+.menu_bar .drop_down_product{display:none;}
+.menu_bar .drop_down_link{display:none;}
+.menu_bar .drop_down_profile{display:none;}
+.menu_bar .drop_down_file{display:none;}
 /*++++++++++DropBoxesallsame+++++++++++*/
 /*++++++++++DropBoxesallsame+++++++++++*/
 .drop-box{
@@ -240,7 +240,7 @@ font-size:12px;
 /*border-style:solid;*/
 /*float:left;*/
 }
-.product_range-inner:hover.product_range-text{
+.product_range-inner:hover .product_range-text{
 color:#000;
 }
 
@@ -275,10 +275,10 @@ padding:16px016px16px;
 .logo img{width:100%;}
 
 /*MobileNevigation-------------*/
-.menu_bar ul li:hover.drop_down_product{display:none;}
-.menu_bar ul li:hover.drop_down_profile{display:none;}
-.menu_bar ul li:hover.drop_down_file{display:none;}
-.menu_bar ul li:hover.drop_down_link{display:none;}
+.menu_bar ul li:hover .drop_down_product{display:none;}
+.menu_bar ul li:hover .drop_down_profile{display:none;}
+.menu_bar ul li:hover .drop_down_file{display:none;}
+.menu_bar ul li:hover .drop_down_link{display:none;}
 
 .menu_bar-grid{
 	margin:0px auto 2px;
@@ -313,10 +313,10 @@ text-align:center;
 	}
 .logo img{width:60%;}
 
-.menu_bar ul li:hover.drop_down_product{display:none;}
-.menu_bar ul li:hover.drop_down_profile{display:none;}
-.menu_bar ul li:hover.drop_down_file{display:none;}
-.menu_bar ul li:hover.drop_down_link{display:none;}
+.menu_bar ul li:hover .drop_down_product{display:none;}
+.menu_bar ul li:hover .drop_down_profile{display:none;}
+.menu_bar ul li:hover .drop_down_file{display:none;}
+.menu_bar ul li:hover .drop_down_link{display:none;}
 
 
 .menu_bar-grid{
